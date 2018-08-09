@@ -1,0 +1,84 @@
+* {  
+    box-sizing: border-box;
+    color:  rgb(73, 85, 109);
+}
+
+body {
+    font-family: serif;
+    text-align: center; 
+}
+   
+header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 30vh;
+    max-width: 500px;
+    margin: 5px auto;
+    border-bottom: 8px solid ;
+    background-color:whitesmoke;
+}
+
+header h1 {
+    background-color: rgb(73, 85, 109);
+    padding: 30px;
+    color: whitesmoke;
+}
+
+header h2 {
+    font-size: 200%;
+    margin-bottom: 0;
+}
+
+header p {
+    color: gray; 
+    font-size: 200%;
+    margin: 20px 0;
+}
+
+
+main {
+    max-width: 500px; 
+    background-color:whitesmoke;
+    margin: 5px auto;
+    padding: 20px;
+    border-top: 3px solid ;
+
+}
+
+fieldset {
+    display: flex;
+    border: none;
+}
+
+legend {
+    text-align: left;
+    font-size: 200%;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+label {
+    text-align: left;
+    margin: 15px 0;
+    color: rgb(108, 122, 145);
+    font-size: 115%;
+}
+
+input, 
+select {
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    width: 400px;
+    margin: 5px 0;
+    background-color: rgb(228, 226, 226);
+}
+
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
