@@ -4,81 +4,119 @@
 }
 
 body {
-    font-family: serif;
-    text-align: center; 
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
 }
    
 header {
     text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 30vh;
-    max-width: 500px;
-    margin: 5px auto;
-    border-bottom: 8px solid ;
-    background-color:whitesmoke;
 }
 
 header h1 {
     background-color: rgb(73, 85, 109);
-    padding: 30px;
     color: whitesmoke;
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
 }
 
 header h2 {
-    font-size: 200%;
-    margin-bottom: 0;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 
 header p {
-    color: gray; 
-    font-size: 200%;
-    margin: 20px 0;
+    color: rgb(192, 190, 190); 
+    font-size: 15px;
+    margin-bottom: 40px;
 }
 
-
 main {
-    max-width: 500px; 
-    background-color:whitesmoke;
-    margin: 5px auto;
-    padding: 20px;
-    border-top: 3px solid ;
+    border-top: 3px solid rgb(73, 85, 109);
+    margin: 0 20px;
+}
 
+.intro {
+    border-bottom: 5px solid rgb(73, 85, 109);
+    margin: 2px 20px;
 }
 
 fieldset {
-    display: flex;
     border: none;
+    padding: 0;
+    /* display: inline-block; */
 }
 
 legend {
     text-align: left;
-    font-size: 200%;
+    font-size: 20px;
     font-weight: bold;
-    margin: 10px 0px;
+    padding: 20px 0;
+}
+
+.contact_contents {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
 }
 
 label {
     text-align: left;
-    margin: 15px 0;
-    color: rgb(108, 122, 145);
+    color: rgb(109, 123, 145);
     font-size: 115%;
+    font-size: 90%;
 }
 
-input, 
-select {
+::placeholder {
+    color: rgb(192, 190, 190);
+    font-size: 80%;
+}
+
+input {
+    line-height: 2.5;
+    text-align: right;
     border: none;
-    border-radius: 8px;
-    height: 50px;
-    width: 400px;
-    margin: 5px 0;
-    background-color: rgb(228, 226, 226);
+    border-radius: 5px;
+    background-color: rgb(236, 236, 236);
+    margin: 10px 10px 10px 0px;
 }
 
-
-input[type="checkbox"] {
-    width: 20px;
-    height: 20px;
+.state_contents {
+    display: flex;
+    flex-direction: column;
 }
 
+select {
+    height: 40px;
+    width: 96%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(236, 236, 236);
+    margin: 10px 10px 10px 0px;
+}
+
+.zip_contents {
+    text-align: left;
+}
+
+hr {
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(73, 85, 109);
+}
+
+.multiple_choice {
+    display: flex;
+}
+
+.newsletter_cuestions {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.newsletter_cuestions label {
+    margin: 10px;
+}
