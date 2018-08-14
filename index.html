@@ -19,6 +19,9 @@
         </div>        
     </header>
 
+    <hr class="first_line">
+    <hr class="second_line">
+
     <main>
         <form action="index.html" method="POST">
 
@@ -28,7 +31,7 @@
 
                 <div class="contact_contents">
                     <label for="name">Full Name</label>
-                    <input type="text" id="name" name="Full_name" placeholder="Required">
+                    <input type="text" id="name" name="Full_name" placeholder="Required" autofocus>
                </div>
                
                <div class="contact_contents">
@@ -69,7 +72,7 @@
                 </div>  
                 
                 <div class="zip_contents">
-                    <label for="zip">Zip Code</label>
+                    <label for="zip">Zip Code</label><br>
                     <input type="text" id="zip" name="zip_code">
                 </div>   
             </fieldset>
@@ -90,12 +93,12 @@
                 <div class"newsletter_cuestions">
                     <label>Newsletter format</label><br>
                     <input type="radio" id="html" value="html" name="newsletters_format"><label class="format" for="html">HTML</label><br>
-                    <input type="radio" id="plain" value="plain_text" name="newsletters_format"><label class="format" for="plain">Plain text</label>
+                    <input type="radio" id="plain" value="plain_text" name="newsletters_format"><label class="format" for="plain">Plain text</label><br>
                 </div>
 
-                <divclass"newsletter_cuestions">
-                    <label for="topics">Other topics you'd like to hear about</label>
-                    <textarea name="" id="topics"></textarea>
+               <div class"newsletter_cuestions">
+                    <label for="topics">Other topics you'd like to hear about</label><br>
+                    <textarea name="other_topics" id="topics"></textarea>
                 </div>
 
             </fieldset>
@@ -106,7 +109,7 @@
     </main>
 
     <footer>
-       <p> &copy; 2018 Marolyn Dayan learn.20h.es</p>
+       <p><small>&copy;2018 Marolyn Dayan learn.20h.es</small></p>
     </footer>
 
 </body>
